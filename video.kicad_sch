@@ -300,6 +300,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NPN_CBE"
 			(pin_names
 				(offset 0) hide)
@@ -596,6 +759,342 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:-5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -1973,10 +2472,16 @@
 		)
 	)
 	(junction
-		(at 118.11 175.26)
+		(at 123.19 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0770acd4-2923-43f4-9be4-e2aaa436efa9")
+	)
+	(junction
+		(at 226.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "106f63f5-aeb3-48e3-ac3b-10887179e41c")
 	)
 	(junction
 		(at 100.33 172.72)
@@ -1985,14 +2490,170 @@
 		(uuid "11a53a41-9978-41fd-805a-6b95ef8793d3")
 	)
 	(junction
+		(at 40.64 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b528449-9d3f-47a8-b256-b0f8f73cf26d")
+	)
+	(junction
 		(at 95.25 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20a9f1ba-7863-4d4f-8922-2c0b5b4b12fc")
 	)
+	(junction
+		(at 134.62 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b775ee7-3082-429e-b2ab-5e50e8a12ff1")
+	)
+	(junction
+		(at 40.64 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3713be46-8be1-4ad3-be6f-4173e92a98a6")
+	)
+	(junction
+		(at 90.17 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390d126e-0e00-4838-a494-8ad361b1fc25")
+	)
+	(junction
+		(at 114.3 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3e05ad-3ec6-4620-a725-8a8420acf249")
+	)
+	(junction
+		(at 114.3 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "405c6906-3cc1-416f-bd84-87b4136e9028")
+	)
+	(junction
+		(at 125.73 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d858d8-194f-4d7e-995a-87519a40fdc5")
+	)
+	(junction
+		(at 40.64 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d4a69e-91b6-4f95-a6e5-0f57cdb27f32")
+	)
+	(junction
+		(at 125.73 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2966e2-2f04-421a-8edc-ff6cbbc8b518")
+	)
+	(junction
+		(at 22.86 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d70ed1f-64cf-4584-9176-df2b2044e6d5")
+	)
+	(junction
+		(at 22.86 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8583bc5d-208b-4769-95dc-ef2928c0b507")
+	)
+	(junction
+		(at 22.86 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892feb8f-7789-4a3d-b939-7dad74a7b08f")
+	)
+	(junction
+		(at 22.86 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "989f1b3c-12db-45cf-a6ff-7da8b20f1436")
+	)
+	(junction
+		(at 50.8 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d2421f-6ce7-43db-b1b1-416d42f29b2c")
+	)
+	(junction
+		(at 22.86 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20b29db-ad9a-434d-a62d-e8f6698f9ee2")
+	)
+	(junction
+		(at 22.86 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3f530f2-6da4-4cbe-bca0-5f89ea41c36c")
+	)
+	(junction
+		(at 71.12 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa02326b-3f87-4efe-b146-db632589aca3")
+	)
+	(junction
+		(at 40.64 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae4f29a1-5ab2-49e9-8acf-92f194a6d62f")
+	)
+	(junction
+		(at 137.16 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf335a4b-fbc2-48fe-8f50-6256890741a0")
+	)
+	(junction
+		(at 226.06 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d60d4a6f-43f0-4c3c-83aa-d8bc1637d7dd")
+	)
+	(junction
+		(at 22.86 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63a7911-60bf-43cf-a9ac-bd3ed5645ba6")
+	)
+	(junction
+		(at 248.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deb6ede5-e4db-4c92-8b26-b31929a1f33d")
+	)
+	(junction
+		(at 50.8 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef1e80ab-e924-484f-8cfb-52ca4dc3578b")
+	)
+	(junction
+		(at 90.17 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae18d8c-d9b2-482a-8538-e9c54241552f")
+	)
+	(junction
+		(at 116.84 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd782482-2abb-4275-803f-5a560484218b")
+	)
+	(junction
+		(at 220.98 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe549dda-1832-42c8-82f6-7ed4ca92e0ac")
+	)
 	(wire
 		(pts
-			(xy 118.11 175.26) (xy 118.11 181.61)
+			(xy 123.19 175.26) (xy 123.19 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2663,47 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 137.16) (xy 119.38 137.16)
+			(xy 252.73 59.69) (xy 252.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017a79d5-23dc-4113-b478-3d005e40d3b7")
+	)
+	(wire
+		(pts
+			(xy 44.45 229.87) (xy 40.64 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028f6dff-bb26-441f-bed8-4e5035f0d46a")
+	)
+	(wire
+		(pts
+			(xy 29.21 231.14) (xy 30.48 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bf47ae-08ae-40e3-a990-bab52c312fdc")
+	)
+	(wire
+		(pts
+			(xy 123.19 220.98) (xy 125.73 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042fb04a-5034-47be-86ca-8470c8211180")
+	)
+	(wire
+		(pts
+			(xy 125.73 137.16) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2032,6 +2733,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 261.62) (xy 24.13 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0870ba7e-ecb9-4d06-835e-10fbf0ce7b20")
+	)
+	(wire
+		(pts
 			(xy 217.17 91.44) (xy 217.17 78.74)
 		)
 		(stroke
@@ -2049,6 +2760,96 @@
 			(type default)
 		)
 		(uuid "0c58af0e-57e4-463a-bbf7-6efe2ddca6f4")
+	)
+	(wire
+		(pts
+			(xy 125.73 228.6) (xy 123.19 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb27640-d747-480e-92ed-d99ffe9e233d")
+	)
+	(wire
+		(pts
+			(xy 50.8 245.11) (xy 50.8 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d8c7ae-604c-4ae3-923b-13f5583a95be")
+	)
+	(wire
+		(pts
+			(xy 40.64 250.19) (xy 40.64 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4731c5-0341-41d6-bce3-bbacbfdd4079")
+	)
+	(wire
+		(pts
+			(xy 232.41 59.69) (xy 252.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b266231-04a1-419c-957c-be0a94051d52")
+	)
+	(wire
+		(pts
+			(xy 52.07 245.11) (xy 50.8 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1686ab-0989-407b-ab3f-3bc3213d871a")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f838218-ee12-4879-80c8-2b81f23c988f")
+	)
+	(wire
+		(pts
+			(xy 30.48 193.04) (xy 30.48 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2895ecd1-6be6-43c8-9b8c-4492a2a12c05")
+	)
+	(wire
+		(pts
+			(xy 22.86 182.88) (xy 22.86 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c76b00-44c7-4e41-902d-b198dfa1e199")
+	)
+	(wire
+		(pts
+			(xy 115.57 212.09) (xy 116.84 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293e283c-940c-4b95-9724-18ff194685cb")
 	)
 	(wire
 		(pts
@@ -2072,6 +2873,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3f5c3c-9c55-4ab8-90f5-abfc2d477e98")
+	)
+	(wire
+		(pts
 			(xy 170.18 59.69) (xy 170.18 39.37)
 		)
 		(stroke
@@ -2079,6 +2890,106 @@
 			(type default)
 		)
 		(uuid "2ccc7690-12df-495b-8ff8-e9505cffa69f")
+	)
+	(wire
+		(pts
+			(xy 227.33 59.69) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce110ac-29dd-442a-99e1-db3e64f3056f")
+	)
+	(wire
+		(pts
+			(xy 52.07 237.49) (xy 50.8 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8490a6-54fa-435f-bf58-7344caf3b9c0")
+	)
+	(wire
+		(pts
+			(xy 22.86 193.04) (xy 22.86 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eac94b4-47f6-468f-b6fa-9cc7e2e9c1fc")
+	)
+	(wire
+		(pts
+			(xy 123.19 204.47) (xy 129.54 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304db2b2-2e6b-4625-a4ab-766763e7c81f")
+	)
+	(wire
+		(pts
+			(xy 40.64 220.98) (xy 44.45 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314d2b23-f54d-4e48-8852-69a946a382c8")
+	)
+	(wire
+		(pts
+			(xy 22.86 182.88) (xy 25.4 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3370f8d0-894d-4958-b1ca-296fd799f572")
+	)
+	(wire
+		(pts
+			(xy 35.56 182.88) (xy 40.64 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3569ee04-7e34-4b04-9c11-2a0101302b16")
+	)
+	(wire
+		(pts
+			(xy 29.21 193.04) (xy 30.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3833946d-e09b-42e7-b22a-44354fc47d55")
+	)
+	(wire
+		(pts
+			(xy 22.86 212.09) (xy 22.86 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ad5e74-6514-48bb-be7b-7b671c49fa57")
+	)
+	(wire
+		(pts
+			(xy 30.48 231.14) (xy 30.48 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a067833-ef83-42ad-b105-e824a176d51b")
 	)
 	(wire
 		(pts
@@ -2092,6 +3003,36 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 50.8) (xy 242.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb883ca-e67c-45fb-82f5-d543fb606f88")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d30b623-816b-4093-a632-ebf321596b1d")
+	)
+	(wire
+		(pts
+			(xy 113.03 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4019e47d-25a9-4a6e-afbc-e1475338ce4c")
+	)
+	(wire
+		(pts
 			(xy 88.9 176.53) (xy 81.28 176.53)
 		)
 		(stroke
@@ -2099,6 +3040,166 @@
 			(type default)
 		)
 		(uuid "40a3527c-17a0-4c2f-9e9b-dce074fb38df")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427bf7cd-984e-4498-ad9d-dd7f2f808eeb")
+	)
+	(wire
+		(pts
+			(xy 35.56 220.98) (xy 40.64 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e075c9-5f8d-4c63-bdae-b8a2fa87ca50")
+	)
+	(wire
+		(pts
+			(xy 40.64 201.93) (xy 40.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ffd3d2-3106-4570-a1fa-44f5ea6197b4")
+	)
+	(wire
+		(pts
+			(xy 40.64 182.88) (xy 44.45 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4868269d-b5ef-4542-8af5-86c3cbfcd57c")
+	)
+	(wire
+		(pts
+			(xy 114.3 180.34) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d88b200-195c-47fc-84ae-5e5befddbc1c")
+	)
+	(wire
+		(pts
+			(xy 50.8 229.87) (xy 49.53 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd3cd6e-583f-49ff-ad7f-29132133be82")
+	)
+	(wire
+		(pts
+			(xy 172.72 85.09) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6cb3a3-ff92-427f-a68e-d8e6b27bccd2")
+	)
+	(wire
+		(pts
+			(xy 140.97 212.09) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ec88b4-38b9-4224-bb08-c92a62c967fe")
+	)
+	(wire
+		(pts
+			(xy 30.48 209.55) (xy 30.48 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517fcfa0-8584-40ac-94f7-7c9bf31fad72")
+	)
+	(wire
+		(pts
+			(xy 116.84 204.47) (xy 118.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260cae9-53b8-4217-8043-a20992e0ede1")
+	)
+	(wire
+		(pts
+			(xy 128.27 228.6) (xy 125.73 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549c3036-951c-407a-be94-4616cc705822")
+	)
+	(wire
+		(pts
+			(xy 252.73 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b32837-c8eb-4751-8bcd-3dee88d9cf67")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6f1134-7023-46c3-a257-9ed2cdf422b8")
+	)
+	(wire
+		(pts
+			(xy 40.64 250.19) (xy 44.45 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f379940-a91b-4725-aee2-d73bf2e82b94")
+	)
+	(wire
+		(pts
+			(xy 40.64 182.88) (xy 40.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6297a710-8654-4bfc-9ea0-d5d727537c77")
+	)
+	(wire
+		(pts
+			(xy 116.84 204.47) (xy 116.84 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629b0a10-11bb-423b-847b-4e893509bda0")
 	)
 	(wire
 		(pts
@@ -2112,7 +3213,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 175.26) (xy 118.11 175.26)
+			(xy 125.73 212.09) (xy 125.73 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b552e2-3f92-495f-8b53-9373a3e9df12")
+	)
+	(wire
+		(pts
+			(xy 52.07 229.87) (xy 50.8 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66986e33-33cb-4059-a0da-aa82f7ddde03")
+	)
+	(wire
+		(pts
+			(xy 114.3 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ca72fc-fa60-4ddc-9428-98c1eae128ae")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 123.19 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2142,6 +3273,86 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 201.93) (xy 40.64 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ce3655-97dc-4524-98e0-b97c3883f4f7")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ece8e5-3eea-49be-90e7-9f728b19cf7e")
+	)
+	(wire
+		(pts
+			(xy 30.48 212.09) (xy 29.21 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73445ca6-1751-4029-8e9f-70628787d4e2")
+	)
+	(wire
+		(pts
+			(xy 40.64 201.93) (xy 44.45 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a60a86-cc9d-4fdc-ae40-6b93a73ea7a6")
+	)
+	(wire
+		(pts
+			(xy 137.16 212.09) (xy 134.62 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77048c9b-b740-422c-9820-3bca767de045")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bae72a0-294d-49de-8880-cd6833824a0d")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb0ab66-dc67-4642-9c67-fcf9639f76bd")
+	)
+	(wire
+		(pts
+			(xy 227.33 43.18) (xy 226.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e438c37-d093-4668-b7b3-733538ef5338")
+	)
+	(wire
+		(pts
 			(xy 100.33 172.72) (xy 101.6 172.72)
 		)
 		(stroke
@@ -2149,6 +3360,116 @@
 			(type default)
 		)
 		(uuid "8122ff22-6352-48f7-b719-1ceda094335b")
+	)
+	(wire
+		(pts
+			(xy 110.49 220.98) (xy 118.11 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8457a3b9-6140-4028-94b2-bbcfea8a7364")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 234.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d00b2d-4d40-4bb5-a166-bd2de8923c7c")
+	)
+	(wire
+		(pts
+			(xy 101.6 179.07) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88578809-6b6f-4807-88c4-6f72695cb784")
+	)
+	(wire
+		(pts
+			(xy 91.44 140.97) (xy 73.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d2b7e2-060a-43d1-8a97-45569d860013")
+	)
+	(wire
+		(pts
+			(xy 220.98 88.9) (xy 220.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89027b90-4a6a-4585-8177-b9368beef6bb")
+	)
+	(wire
+		(pts
+			(xy 90.17 53.34) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddf0590-037c-4242-bfdc-dbe3c7691f4a")
+	)
+	(wire
+		(pts
+			(xy 44.45 190.5) (xy 40.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f33bf6c-cfc5-428d-be94-66882f597072")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7b6789-5021-4332-ad61-279d63fa1db0")
+	)
+	(wire
+		(pts
+			(xy 134.62 204.47) (xy 137.16 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932c277e-83b1-4647-acca-78cfc0c6911f")
+	)
+	(wire
+		(pts
+			(xy 40.64 220.98) (xy 40.64 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93df5a9b-7a90-4f67-a070-487cac1c7852")
+	)
+	(wire
+		(pts
+			(xy 73.66 137.16) (xy 73.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963a19e3-e34f-4175-af6d-79b85fc5a323")
 	)
 	(wire
 		(pts
@@ -2162,6 +3483,116 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 180.34) (xy 114.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7166c0-2e03-45ed-815d-ce5cd52edf5a")
+	)
+	(wire
+		(pts
+			(xy 22.86 220.98) (xy 22.86 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dc69bf-70af-443c-a298-cddad2cc5f99")
+	)
+	(wire
+		(pts
+			(xy 113.03 175.26) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b7337a-589a-4446-a548-b022eb91ce12")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69c9daa-7a00-4a2d-9461-56bbf7448b2c")
+	)
+	(wire
+		(pts
+			(xy 22.86 215.9) (xy 22.86 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4b57af-d8ab-4efe-bbfb-e13ce8a8d81c")
+	)
+	(wire
+		(pts
+			(xy 240.03 66.04) (xy 242.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad98c135-762f-4686-adc7-d7f5523a3137")
+	)
+	(wire
+		(pts
+			(xy 220.98 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1763df8-5a78-4a3c-8f39-975544658b00")
+	)
+	(wire
+		(pts
+			(xy 247.65 66.04) (xy 248.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19b126b-daa9-4d5e-880d-924e338b0165")
+	)
+	(wire
+		(pts
+			(xy 22.86 250.19) (xy 25.4 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bfa130-a5a4-4ded-bfd0-ef83d13467c1")
+	)
+	(wire
+		(pts
+			(xy 29.21 261.62) (xy 30.48 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2562bd2-a8b5-45bd-b0e7-45bff2d1a9b2")
+	)
+	(wire
+		(pts
+			(xy 114.3 180.34) (xy 114.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b563a6e2-a262-459c-8073-660fd3779fa8")
+	)
+	(wire
+		(pts
 			(xy 213.36 39.37) (xy 213.36 46.99)
 		)
 		(stroke
@@ -2169,6 +3600,36 @@
 			(type default)
 		)
 		(uuid "b8521d31-2972-4b89-b4df-d1dfe55d7861")
+	)
+	(wire
+		(pts
+			(xy 71.12 215.9) (xy 73.66 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e7ce0f-b208-4b86-8c1f-13e1f606242f")
+	)
+	(wire
+		(pts
+			(xy 139.7 175.26) (xy 134.62 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7ddb01-cd8c-4bbd-be6f-f7dcfd34badb")
+	)
+	(wire
+		(pts
+			(xy 22.86 220.98) (xy 25.4 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebd196b-65ea-4ae7-952b-3724bd841f13")
 	)
 	(wire
 		(pts
@@ -2182,13 +3643,273 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 175.26) (xy 134.62 175.26)
+			(xy 123.19 175.26) (xy 134.62 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c32a4871-93b4-4672-8629-3b81f20bc06c")
+	)
+	(wire
+		(pts
+			(xy 22.86 193.04) (xy 24.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f8e637-f7ab-4b51-b778-71ea999a0aa5")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d127abd9-0433-4a67-9c37-567884eaa31f")
+	)
+	(wire
+		(pts
+			(xy 101.6 175.26) (xy 107.95 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d287caa9-208e-4ef5-bd03-70a584689b87")
+	)
+	(wire
+		(pts
+			(xy 50.8 229.87) (xy 50.8 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d07de1-9404-4e4a-8d83-c9dd9cc3a4be")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36a4ade-305f-4acd-a54b-7fb04b3bc82a")
+	)
+	(wire
+		(pts
+			(xy 123.19 212.09) (xy 125.73 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c1e967-5969-44e7-99cf-67c529d2bf3b")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e73482-d545-4fef-8f10-a29df2a01908")
+	)
+	(wire
+		(pts
+			(xy 22.86 250.19) (xy 22.86 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b6ab7b-f2d0-47f2-985b-a8ecd7d21c04")
+	)
+	(wire
+		(pts
+			(xy 44.45 209.55) (xy 40.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86a94cc-c141-40e2-a362-d45102a0d05a")
+	)
+	(wire
+		(pts
+			(xy 116.84 212.09) (xy 118.11 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9797a1f-52ac-4f4d-afb7-90f8575fc9dd")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da51b583-a94b-4548-91d6-c973d866fb95")
+	)
+	(wire
+		(pts
+			(xy 22.86 212.09) (xy 24.13 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6df5cd-d15e-4898-b16f-3e9ae4c00307")
+	)
+	(wire
+		(pts
+			(xy 78.74 137.16) (xy 83.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddedeb7e-fc1f-4445-a039-c84b9e6c23a1")
+	)
+	(wire
+		(pts
+			(xy 24.13 231.14) (xy 22.86 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfacfca4-604a-4468-b623-336028cb87aa")
+	)
+	(wire
+		(pts
+			(xy 22.86 201.93) (xy 25.4 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e017661f-c1bc-47ff-8610-74ceb898ed01")
+	)
+	(wire
+		(pts
+			(xy 90.17 66.04) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e316cd0f-0334-4a09-b6ca-aacf7af0f0b4")
+	)
+	(wire
+		(pts
+			(xy 44.45 257.81) (xy 40.64 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c50f56-0294-474c-b329-e6c71acb7e26")
+	)
+	(wire
+		(pts
+			(xy 248.92 50.8) (xy 248.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e584bf44-ffef-43c9-bdcc-5339f3a5a9e9")
+	)
+	(wire
+		(pts
+			(xy 137.16 204.47) (xy 137.16 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dd5fc3-a3cd-4ce8-a884-545c5dcc1efa")
+	)
+	(wire
+		(pts
+			(xy 125.73 220.98) (xy 125.73 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8461c20-7fc8-4bc0-8430-bca865292992")
+	)
+	(wire
+		(pts
+			(xy 22.86 201.93) (xy 22.86 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c15144-5cc2-4f57-aaa2-43a1801829ec")
+	)
+	(wire
+		(pts
+			(xy 30.48 261.62) (xy 30.48 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94e347b-2aff-4730-b002-e429413e0ad9")
+	)
+	(wire
+		(pts
+			(xy 68.58 215.9) (xy 71.12 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0478cc-8570-48b2-ad74-0df3be169bbd")
+	)
+	(wire
+		(pts
+			(xy 22.86 231.14) (xy 22.86 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaf2fd7-ed49-4382-858e-454b387dcf20")
+	)
+	(wire
+		(pts
+			(xy 248.92 50.8) (xy 247.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed452444-a357-4c47-b6b2-14705d6fb476")
+	)
+	(wire
+		(pts
+			(xy 35.56 250.19) (xy 40.64 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9085eb-533d-4343-80ee-bcca808a9d78")
 	)
 	(wire
 		(pts
@@ -2199,6 +3920,26 @@
 			(type default)
 		)
 		(uuid "ee95bfd2-4315-4062-935f-f7dd60ac1f64")
+	)
+	(wire
+		(pts
+			(xy 91.44 137.16) (xy 91.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeda6a1a-3550-4bb1-9e73-28aa467703db")
+	)
+	(wire
+		(pts
+			(xy 90.17 78.74) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9f418b-5ef8-4d5a-822f-855386092bb4")
 	)
 	(wire
 		(pts
@@ -2219,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "f4bb31d2-06fa-4f0c-acb0-f3d28361eb33")
+	)
+	(wire
+		(pts
+			(xy 226.06 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97f9fb3-e267-470f-9234-b1c88ac1b42e")
 	)
 	(wire
 		(pts
@@ -2250,6 +4001,46 @@
 		)
 		(uuid "fc8e35de-71b4-41fb-9165-a872d7c25778")
 	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 220.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff67158-b91d-4247-953a-cd97b3658d1b")
+	)
+	(label "ic1_13"
+		(at 63.5 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b200da-5fcf-4ac0-8f6c-fa20b2a4e58c")
+	)
+	(label "ic2_6"
+		(at 118.11 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15a081d5-daca-4080-b4f6-1158dc1896e3")
+	)
+	(label "ic2_10"
+		(at 130.81 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1799ff6a-0dc0-4ffa-a6aa-7c5f6aa33060")
+	)
 	(label "ic3_5"
 		(at 107.95 172.72 0)
 		(effects
@@ -2270,6 +4061,16 @@
 		)
 		(uuid "2b1db376-0dbb-4075-9942-65d3552a2c7f")
 	)
+	(label "ic1_8"
+		(at 68.58 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ff1d668-7b73-4057-8aa3-53f4318c64db")
+	)
 	(label "ic3_8"
 		(at 209.55 85.09 0)
 		(effects
@@ -2279,6 +4080,86 @@
 			(justify left bottom)
 		)
 		(uuid "361479eb-1ba8-47f8-95a9-eb61efee1318")
+	)
+	(label "ic1_1"
+		(at 63.5 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e3554ee-8fe4-47f5-94a1-53638aefff8c")
+	)
+	(label "ic1_14"
+		(at 146.05 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "408b00aa-5d58-4382-9b30-2160d3396082")
+	)
+	(label "ic1_14"
+		(at 63.5 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "451efc13-76c7-4d6c-817d-896009bb95cc")
+	)
+	(label "ic3_2"
+		(at 90.17 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4af161e6-3a60-456a-84f8-ffff4f9b8c20")
+	)
+	(label "ic2_6"
+		(at 96.52 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4df9652a-3a26-4bac-aeba-972c950d82aa")
+	)
+	(label "ic1_7"
+		(at 29.21 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50a1aec5-f92a-44ac-9b70-d77bf0f9ea4b")
+	)
+	(label "ic2_14"
+		(at 115.57 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "510e6d21-4818-4336-bcbd-7ab28c6c846a")
+	)
+	(label "ic1_12"
+		(at 63.5 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5428c7ec-4f63-45ba-a62b-ba1c1f0ba358")
 	)
 	(label "ic3_4"
 		(at 175.26 66.04 180)
@@ -2290,6 +4171,36 @@
 		)
 		(uuid "54cf4f83-093d-4cba-a15f-22d989bf311b")
 	)
+	(label "ic1_14"
+		(at 78.74 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c0b1c2f-029e-4808-aee8-383659ba7495")
+	)
+	(label "ic2_1"
+		(at 30.48 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dd012c8-f8f5-477b-b166-d77c93484c3f")
+	)
+	(label "ic1_8"
+		(at 63.5 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71380e3e-8a75-4205-b03a-086841d747c7")
+	)
 	(label "ic3_5"
 		(at 175.26 72.39 180)
 		(effects
@@ -2300,15 +4211,105 @@
 		)
 		(uuid "71537e44-5e8a-484d-9a8a-0b6a22c488d7")
 	)
+	(label "ic1_12"
+		(at 57.15 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71f850a0-658c-4550-8786-bb2a24f94bcd")
+	)
 	(label "ic3_4"
-		(at 58.42 142.24 180)
+		(at 80.01 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79eee42d-f8e1-47c1-a22c-d94567ec5810")
+	)
+	(label "ic1_10"
+		(at 63.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a3b6286-d026-444c-893b-8099a3299f1e")
+	)
+	(label "ic2_13"
+		(at 137.16 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8167ab4d-7ca9-4c7b-b1b5-c6bcae72ef8e")
+	)
+	(label "ic2_8"
+		(at 130.81 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87b80d1c-1784-4c1e-ba77-68df3748b072")
+	)
+	(label "ic2_5"
+		(at 96.52 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "79eee42d-f8e1-47c1-a22c-d94567ec5810")
+		(uuid "8e75333d-ae4e-40df-9af4-e37880ea6a8e")
+	)
+	(label "ic2_13"
+		(at 130.81 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99ae9140-c7bb-4167-8abb-d2f4642cac64")
+	)
+	(label "ic1_12"
+		(at 128.27 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99ba0b12-a66b-489d-962e-3827914dfe08")
+	)
+	(label "ic3_2"
+		(at 95.25 184.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f2b1473-79a4-4d51-8099-8bdda96fc976")
+	)
+	(label "ic2_13"
+		(at 57.15 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0efca90-c392-4620-9c15-2beb573d20f6")
 	)
 	(label "ic3_8"
 		(at 93.98 176.53 0)
@@ -2320,6 +4321,66 @@
 		)
 		(uuid "b37586d5-bb19-42d7-a8d0-2bfd36c298da")
 	)
+	(label "ic2_7"
+		(at 129.54 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b421d0da-a6b1-4dd3-a6c8-00441676dc94")
+	)
+	(label "ic2_7"
+		(at 96.52 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba11ab6c-3949-4853-a19a-76f8d855c4c1")
+	)
+	(label "ic3_2"
+		(at 175.26 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc292527-290b-4d74-95ca-d15099b47f17")
+	)
+	(label "ic2_10"
+		(at 129.54 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca481ea0-0702-4247-a2f0-3ea07afa6ded")
+	)
+	(label "ic2_8"
+		(at 30.48 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbd02979-00cb-4892-b0fc-0fbab7727c53")
+	)
+	(label "ic2_11"
+		(at 30.48 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7edfeac-3823-4574-9257-c3b66a4c1a0b")
+	)
 	(label "ic3_4"
 		(at 130.81 137.16 0)
 		(effects
@@ -2330,15 +4391,105 @@
 		)
 		(uuid "d856d759-9af5-4dbb-8a1e-a8a2b9703fca")
 	)
-	(label "ic3_11"
-		(at 224.79 66.04 180)
+	(label "ic2_1"
+		(at 96.52 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dfeb50f3-fa11-48b2-b705-755a7c04b283")
+		(uuid "d9c5bd47-2bd2-47c5-b43c-4a419f54d971")
+	)
+	(label "ic2_12"
+		(at 130.81 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9ddb2e3-f71d-47cd-b466-410914134060")
+	)
+	(label "ic2_7"
+		(at 105.41 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e09b9ab8-5360-4ea1-8e95-7cafabe3ef55")
+	)
+	(label "ic1_13"
+		(at 57.15 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6c81440-5031-4019-8f29-0e8bf2c9f1fa")
+	)
+	(label "ic2_5"
+		(at 30.48 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7512481-deb2-434b-9919-3a7ee44dd395")
+	)
+	(label "ic1_10"
+		(at 116.84 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7b267b6-8506-42a8-b419-ad442d9c983f")
+	)
+	(label "ic1_7"
+		(at 115.57 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed2c4af7-12af-416f-af10-75a4ad4819fa")
+	)
+	(label "ic1_14"
+		(at 96.52 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee4d5ee9-ce4b-450c-ba59-a42ecf4d21c1")
+	)
+	(label "ic1_1"
+		(at 29.21 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0dc75e6-8113-48a6-a873-7c6c56be0931")
+	)
+	(label "ic2_11"
+		(at 130.81 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6dd1636-a27d-4369-a60f-2f9a00b559f7")
 	)
 	(label "ic3_11"
 		(at 81.28 163.83 180)
@@ -2350,9 +4501,19 @@
 		)
 		(uuid "fbebbc8b-deff-4f80-bab1-76cc187f5dce")
 	)
+	(label "ic3_8"
+		(at 175.26 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffc64435-6a7c-474c-9b6f-d903c60484fc")
+	)
 	(global_label "pl11_7"
 		(shape input)
-		(at 49.53 198.12 0)
+		(at 49.53 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2362,7 +4523,29 @@
 		)
 		(uuid "209011d9-b497-4d90-904c-b93f46f7f10d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.9255 198.12 0)
+			(at 58.9255 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOUND"
+		(shape input)
+		(at 114.3 137.16 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26ed20ca-028f-4a83-a8af-6a920e18e489")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 127.7038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +4557,7 @@
 	)
 	(global_label "pl11_6"
 		(shape input)
-		(at 49.53 205.74 0)
+		(at 49.53 250.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2384,7 +4567,29 @@
 		)
 		(uuid "2d934f8f-d7c2-4cab-b092-cbc844606299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.9255 205.74 0)
+			(at 58.9255 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pl11_3"
+		(shape input)
+		(at 74.93 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dd2ae0a-e15c-4369-adc2-50e05ccb4647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3255 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +4601,7 @@
 	)
 	(global_label "LUMA"
 		(shape input)
-		(at 41.91 53.34 180)
+		(at 29.21 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2406,7 +4611,7 @@
 		)
 		(uuid "3e348cab-58bd-4adc-b697-9f4a641dd7e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0262 53.34 0)
+			(at 21.3262 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +4623,7 @@
 	)
 	(global_label "phiA"
 		(shape input)
-		(at 76.2 78.74 0)
+		(at 63.5 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2428,7 +4633,29 @@
 		)
 		(uuid "3ecb68f8-cca2-47fa-a2f6-c0b6a13803b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.1766 78.74 0)
+			(at 70.4766 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pl11_1"
+		(shape input)
+		(at 78.74 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc707cb-b3e6-4890-88ec-67faf065fd87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.1355 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +4667,7 @@
 	)
 	(global_label "pl11_5"
 		(shape input)
-		(at 49.53 190.5 0)
+		(at 49.53 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2450,7 +4677,7 @@
 		)
 		(uuid "61721212-e32d-4538-8797-ed27a845456e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.9255 190.5 0)
+			(at 58.9255 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,9 +4709,53 @@
 			)
 		)
 	)
+	(global_label "pl11_2"
+		(shape input)
+		(at 101.6 179.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "732900de-a6c9-4ef4-be3a-3c32348d47f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 188.4655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pl11_3"
+		(shape input)
+		(at 107.95 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ba8bd5a-5b36-4acf-910d-0eceb0574ffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.5545 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "phiB"
 		(shape input)
-		(at 41.91 78.74 180)
+		(at 29.21 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2494,7 +4765,7 @@
 		)
 		(uuid "941c3aea-415e-4562-8e0d-5a33e74b69a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.752 78.74 0)
+			(at 22.052 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,8 +4866,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b251d6-e7b1-48b8-8f13-94c18bb6e39f")
+		(property "Reference" "#PWR015"
+			(at 26.67 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 15.875 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a745952b-703d-4c74-9771-df26a752b18c")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 46.99 205.74 270)
+		(at 46.99 250.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2606,7 +4943,7 @@
 		(fields_autoplaced yes)
 		(uuid "05bfd97a-c50c-49c3-892b-3fa37c0cd1db")
 		(property "Reference" "R14"
-			(at 46.99 200.66 90)
+			(at 46.99 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +4951,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 46.99 203.2 90)
+			(at 46.99 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 46.99 205.74 0)
+			(at 46.99 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +4968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 205.74 0)
+			(at 46.99 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +4977,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 46.99 205.74 0)
+			(at 46.99 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,8 +5001,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 273.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09d53b53-047a-45ff-92e1-470fb1699f34")
+		(property "Reference" "R21"
+			(at 153.67 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 153.67 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 153.67 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "caf802ac-f2ad-4644-8ccf-9472156d7abd")
+		)
+		(pin "1"
+			(uuid "ead2d3d5-e6a6-460a-b25e-d787059b850c")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vdg:MC3346")
-		(at 59.69 68.58 0)
+		(at 46.99 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2674,7 +5079,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e5cfb1b-fd6b-4937-bf8b-08dc5c7a780d")
 		(property "Reference" "IC1"
-			(at 59.055 40.64 0)
+			(at 46.355 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +5087,7 @@
 			)
 		)
 		(property "Value" "MC3346"
-			(at 59.055 43.18 0)
+			(at 46.355 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +5095,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 60.96 45.466 0)
+			(at 48.26 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +5104,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/167480/MOTOROLA/MC3346.html"
-			(at 59.69 87.376 0)
+			(at 46.99 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +5113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 70.485 0)
+			(at 55.88 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,33 +5173,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 142.24 90)
+		(lib_id "Device:R_Small")
+		(at 212.09 53.34 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23893392-6333-4229-be29-b4d18332faab")
-		(property "Reference" "C17"
-			(at 60.9663 135.89 90)
+		(uuid "101b9ece-772e-4644-916a-6590522bd800")
+		(property "Reference" "R46"
+			(at 212.09 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 60.9663 138.43 90)
+		(property "Value" "220R"
+			(at 212.09 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 60.96 142.24 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 212.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +5209,365 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 142.24 0)
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74d233b0-3e3f-406a-8275-cbb33ab0eb9a")
+		)
+		(pin "1"
+			(uuid "8887b0e4-8752-4de1-9c97-edd887d3d963")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 228.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143ea8c3-351a-4179-8e76-8b2b7d5d6a9d")
+		(property "Reference" "R35"
+			(at 120.65 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 120.65 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 120.65 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1efc4655-324a-45c9-87ee-c7d54f5a9b44")
+		)
+		(pin "1"
+			(uuid "db42bee0-8003-4411-a6a5-7dc5e300f534")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 137.16 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dfd438-08b6-485f-b571-de21890808fd")
+		(property "Reference" "R49"
+			(at 110.49 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 110.49 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13018f33-8a84-418d-9a78-41b006e1fe41")
+		)
+		(pin "1"
+			(uuid "1b36c21d-2036-4e2e-8a9c-f146caaf7ead")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 49.53 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "177db090-205b-477e-b2f0-108dd34f2f8a")
+		(property "Reference" "#PWR017"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 56.642 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e983c0db-99f1-40d1-82e1-7893105aec26")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 153.67 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d22942a-1255-4e4c-9e57-40612727050d")
+		(property "Reference" "D9"
+			(at 153.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N"
+			(at 153.67 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "685481c7-1940-4c19-b77f-3e774a42d0c0")
+		)
+		(pin "1"
+			(uuid "f7a37fda-d3c0-4d13-ad79-6fdfbe9a5993")
+		)
+		(instances
+			(project ""
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23893392-6333-4229-be29-b4d18332faab")
+		(property "Reference" "C17"
+			(at 86.3663 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 86.3663 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 86.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +5576,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 142.24 0)
+			(at 86.36 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,6 +5594,342 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 50.8 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24052aab-10ee-4c33-b7b8-6b8a9ce8559f")
+		(property "Reference" "#PWR016"
+			(at 48.26 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 43.688 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeef573f-80a1-45d9-b987-7d8029b01fd0")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 49.53 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "266cce7e-3b74-4e84-a5d9-6d5b9a09eb7e")
+		(property "Reference" "#PWR018"
+			(at 52.07 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 56.642 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "929b82f9-3484-49d2-8193-d8859c7396ef")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 212.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cd4bc5d-222c-4beb-9c07-fa9f66629550")
+		(property "Reference" "R32"
+			(at 120.65 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 120.65 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 120.65 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45fac2c8-8cdc-40d2-a717-d008a4174061")
+		)
+		(pin "1"
+			(uuid "9096f33a-87d1-4e63-9fc0-2a2893d6639e")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 97.79 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e39c4d6-b3bb-49e5-b632-a01a5c0b96ce")
+		(property "Reference" "C2"
+			(at 97.7963 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 97.7963 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 97.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10f8aa5c-094f-4917-bff8-2b45f8d037a5")
+		)
+		(pin "1"
+			(uuid "a16e7bb9-f53f-4c59-b035-4d17bd9c1d82")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 107.95 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fa15079-57c0-4bc3-bfcf-ee21ffe3d88d")
+		(property "Reference" "R29"
+			(at 107.95 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 107.95 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "050e616b-1c6f-42ef-9fb5-9545ffd53ac3")
+		)
+		(pin "1"
+			(uuid "745293ee-f3f9-4a77-b6f0-e322c22e5a7e")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2904,35 +6004,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_CBE")
-		(at 201.93 128.27 0)
+		(lib_id "Device:R_Small")
+		(at 46.99 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38a3d050-7696-4a5c-87ca-d0af0bcd2c61")
-		(property "Reference" "T2"
-			(at 207.01 126.9999 0)
+		(uuid "36cd04ca-92b4-4bdb-b035-1d2614d13642")
+		(property "Reference" "R27"
+			(at 46.99 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_CBE"
-			(at 207.01 129.5399 0)
+		(property "Value" "220R"
+			(at 46.99 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 207.01 125.73 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 46.99 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +6038,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 128.27 0)
+			(at 46.99 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "150117c6-e587-45fd-bdeb-a014862b080e")
+		)
+		(pin "1"
+			(uuid "75553318-2c64-4308-8e1e-b70c2670ca3e")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_CBE")
+		(at 30.48 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a3d050-7696-4a5c-87ca-d0af0bcd2c61")
+		(property "Reference" "T2"
+			(at 30.48 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NPN_CBE"
+			(at 30.48 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
+			(at 27.94 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +6115,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, collector/base/emitter"
-			(at 201.93 128.27 0)
+			(at 30.48 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,6 +6136,344 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b81d16c-0cd7-4704-95f0-ac21b41e01c4")
+		(property "Reference" "#PWR025"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.3701 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a54474f-787c-4499-a5f5-c30960dacbbe")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 120.65 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bbf4e55-d085-40e6-a2e6-cfa7bd2e5c22")
+		(property "Reference" "R30"
+			(at 120.65 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 120.65 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b67b7ba6-8640-4326-86ba-59728f34e5dc")
+		)
+		(pin "1"
+			(uuid "3732ffa5-b850-46f6-aea2-ae4fabed6840")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 26.67 193.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e4b4b87-99db-4f66-a0e9-982ced34a835")
+		(property "Reference" "R9"
+			(at 26.67 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 26.67 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 26.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 26.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e445e6e-4695-4445-ad0c-73c3bd49865a")
+		)
+		(pin "1"
+			(uuid "4a5acef2-ec8a-4f77-aa1e-74c2a7afe019")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 201.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4364a4cf-7945-452e-bc63-07ea251b038f")
+		(property "Reference" "R50"
+			(at 72.39 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 72.39 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 72.39 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff6f0df9-2bb2-4fca-a2ef-3c7e582c4cd0")
+		)
+		(pin "1"
+			(uuid "d796037e-e8a3-4d9d-af2a-b442dbfe317d")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 229.87 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c8b3f6-035b-4126-97ab-6acc154f3be1")
+		(property "Reference" "R43"
+			(at 229.87 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 229.87 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 229.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d16d546-a52e-4919-8459-06c75eb000fc")
+		)
+		(pin "1"
+			(uuid "e65a625f-ce60-47c5-8cb2-22adac8b7742")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3128,33 +6631,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 49.53 124.46 90)
+		(lib_id "Device:R_Small")
+		(at 26.67 231.14 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58b004c9-f80b-42cf-83c8-7773321402cb")
-		(property "Reference" "C16"
-			(at 49.5363 118.11 90)
+		(uuid "48ac6172-e4ba-47cf-bfb2-87410bfcbd7c")
+		(property "Reference" "R13"
+			(at 26.67 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 49.5363 120.65 90)
+		(property "Value" "220R"
+			(at 26.67 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 49.53 124.46 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 26.67 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +6666,414 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 124.46 0)
+			(at 26.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 26.67 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02b7944d-47b0-4bf7-a343-6992f05b868f")
+		)
+		(pin "1"
+			(uuid "af550bc2-8a05-49d6-8664-9a0f980dc9a7")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 201.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a4c6109-a6df-4c22-bde2-c58d68db35e5")
+		(property "Reference" "#PWR022"
+			(at 63.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba7ff1f-9c23-4868-adf3-fadd6554e3a3")
+		)
+		(instances
+			(project ""
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 256.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c9df185-3d36-4168-b5cc-2049fd5dc2e0")
+		(property "Reference" "R20"
+			(at 124.46 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 124.46 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 124.46 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16953444-6dab-4ae5-bf75-64a68c1637a0")
+		)
+		(pin "1"
+			(uuid "578be650-b134-4469-9908-884952b3c305")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 26.67 212.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f040d3-4a70-4281-9a6f-a42611e3b299")
+		(property "Reference" "R7"
+			(at 26.67 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 26.67 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 26.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 26.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a90932b-ca13-417d-8144-681db0008e4b")
+		)
+		(pin "1"
+			(uuid "4b8c8bfc-859a-49ed-9256-a9a1fc72fd11")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 66.04 215.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b30830-5990-4ebe-9869-7fac29c42e72")
+		(property "Reference" "R6"
+			(at 66.04 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 66.04 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 66.04 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "626deecf-a079-4a46-87ac-0b9ca513571f")
+		)
+		(pin "1"
+			(uuid "e028ae56-b751-4368-8251-c786ece98ccd")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "578732d8-1b53-4090-8e11-e389935216da")
+		(property "Reference" "#PWR014"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 137.795 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9be5257-9410-4aa5-9c42-c20efd811006")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 229.87 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58b004c9-f80b-42cf-83c8-7773321402cb")
+		(property "Reference" "C16"
+			(at 229.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 229.87 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +7082,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 124.46 0)
+			(at 229.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,6 +7100,143 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 137.16 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d076e5-197f-4798-b114-c6be130cdc28")
+		(property "Reference" "R45"
+			(at 76.2 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 76.2 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bee604da-0843-44a5-93b4-26df53a10b9c")
+		)
+		(pin "1"
+			(uuid "bdeb9a83-3887-4f6f-ac08-86136a7d3d42")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 143.51 212.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ad92723-89f7-40e3-93d5-454d130388a0")
+		(property "Reference" "R16"
+			(at 143.51 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 143.51 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 143.51 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 143.51 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85c1be3f-1f8f-49bb-ba02-ecaae814f481")
+		)
+		(pin "1"
+			(uuid "4917a29f-e99a-4e96-ace0-dea0a0ae8e9a")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3266,7 +7313,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 46.99 198.12 270)
+		(at 46.99 220.98 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3276,7 +7323,7 @@
 		(fields_autoplaced yes)
 		(uuid "61975794-7ef9-4053-8df2-5ef90b9a543a")
 		(property "Reference" "R12"
-			(at 46.99 193.04 90)
+			(at 46.99 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +7331,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 46.99 195.58 90)
+			(at 46.99 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +7339,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 46.99 198.12 0)
+			(at 46.99 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +7348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 198.12 0)
+			(at 46.99 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +7357,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 46.99 198.12 0)
+			(at 46.99 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +7382,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 113.03 175.26 270)
+		(at 118.11 175.26 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3345,7 +7392,7 @@
 		(fields_autoplaced yes)
 		(uuid "65036878-52d8-4237-9da0-0808ce435218")
 		(property "Reference" "R36"
-			(at 113.03 170.18 90)
+			(at 118.11 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +7400,7 @@
 			)
 		)
 		(property "Value" "2R2"
-			(at 113.03 172.72 90)
+			(at 118.11 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +7408,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 113.03 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +7417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +7426,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 113.03 175.26 0)
+			(at 118.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,6 +7444,72 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 49.53 257.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "677d0961-4659-4904-af3f-9adcfed8ca43")
+		(property "Reference" "#PWR019"
+			(at 52.07 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 56.642 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708a29d4-b176-465f-ade8-d3ee9cbbb3ca")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3472,8 +7585,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e536a02-112a-4d08-b5a5-b9bf125feb65")
+		(property "Reference" "#PWR026"
+			(at 71.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 222.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f206e8-7b63-4112-809d-115cfb9e379a")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ea40e53-5f03-4a83-851d-5273b20d3c15")
+		(property "Reference" "#PWR09"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af452af-44bd-4ee6-b145-383a07c6f6cc")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN_CBE")
-		(at 201.93 154.94 0)
+		(at 30.48 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3482,25 +7728,23 @@
 		(fields_autoplaced yes)
 		(uuid "6eb8830a-d251-4d0f-a06e-cfa8e5c7d064")
 		(property "Reference" "T4"
-			(at 207.01 153.6699 0)
+			(at 30.48 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Q_NPN_CBE"
-			(at 207.01 156.2099 0)
+			(at 30.48 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 207.01 152.4 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
+			(at 27.94 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +7753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 154.94 0)
+			(at 30.48 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +7762,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, collector/base/emitter"
-			(at 201.93 154.94 0)
+			(at 30.48 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +7790,142 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 46.99 190.5 270)
+		(at 229.87 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7401398e-b14f-459a-a9c0-ab8e5b2f2bee")
+		(property "Reference" "R44"
+			(at 229.87 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 229.87 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 229.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 229.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3ca27a2-c4d6-420e-a826-735bf792561d")
+		)
+		(pin "1"
+			(uuid "20267a76-2d2e-4a3b-a680-b7a4f1ea1bbe")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "760f826f-592f-4ef2-bdfa-ccadd540aeaa")
+		(property "Reference" "#PWR012"
+			(at 118.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.315 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a437628-c325-4376-a34a-effb1bf15810")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 201.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3556,7 +7935,7 @@
 		(fields_autoplaced yes)
 		(uuid "7825f22d-3636-42db-ac8f-2b2033fb464d")
 		(property "Reference" "R10"
-			(at 46.99 185.42 90)
+			(at 46.99 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +7943,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 46.99 187.96 90)
+			(at 46.99 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +7951,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 46.99 190.5 0)
+			(at 46.99 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +7960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 190.5 0)
+			(at 46.99 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +7969,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 46.99 190.5 0)
+			(at 46.99 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,6 +7987,211 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 26.67 261.62 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f4aedd-5fa2-42e0-894b-aa1109feac0c")
+		(property "Reference" "R11"
+			(at 26.67 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 26.67 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 26.67 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 26.67 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7459ad2-f008-4d8f-a382-6227666574d2")
+		)
+		(pin "1"
+			(uuid "1d294a61-4d36-4b98-b86b-fcc0a58d4af4")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2e5bad-c07b-4f92-91c9-3a18bec75726")
+		(property "Reference" "#PWR011"
+			(at 238.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3618e683-b00d-434a-a522-fb74d2c05fcc")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 204.47 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "815db0ad-4ffc-4cd0-898f-127756dd3b61")
+		(property "Reference" "R26"
+			(at 132.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 132.08 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 132.08 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7058eb51-a030-47e3-8f98-0b1624a38cab")
+		)
+		(pin "1"
+			(uuid "722fed14-9ec7-426a-97b8-e2866bceed01")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3686,7 +8270,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 118.11 184.15 0)
+		(at 123.19 184.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3696,7 +8280,7 @@
 		(fields_autoplaced yes)
 		(uuid "88539d99-a866-430f-a2c8-5fb93eb3bf49")
 		(property "Reference" "C13"
-			(at 115.57 182.3338 0)
+			(at 120.65 182.3338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +8289,7 @@
 			)
 		)
 		(property "Value" "C_Polarized_Small"
-			(at 115.57 184.8738 0)
+			(at 120.65 184.8738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +8298,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
-			(at 118.11 184.15 0)
+			(at 123.19 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 184.15 0)
+			(at 123.19 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +8316,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 118.11 184.15 0)
+			(at 123.19 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,33 +8340,32 @@
 		)
 	)
 	(symbol
-		(lib_id "vdg:MC3346")
-		(at 132.08 68.58 0)
+		(lib_id "Device:R_Small")
+		(at 46.99 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "964e5e24-6fcb-4843-a768-0f5d49aae23a")
-		(property "Reference" "IC2"
-			(at 131.445 40.64 0)
+		(uuid "88963515-12f0-40c5-95bf-d6ae7a1746dd")
+		(property "Reference" "R23"
+			(at 46.99 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MC3346"
-			(at 131.445 43.18 0)
+		(property "Value" "220R"
+			(at 46.99 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 133.35 45.466 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 46.99 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,8 +8373,78 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/167480/MOTOROLA/MC3346.html"
-			(at 132.08 87.376 0)
+		(property "Datasheet" "~"
+			(at 46.99 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8e55299-dec1-4f2b-9a6f-01c94dee6692")
+		)
+		(pin "1"
+			(uuid "57fcce66-6826-499d-8338-e9982ec4ffd3")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 73.66 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8baba478-a7e8-4eda-9328-1971d4fef8f5")
+		(property "Reference" "#PWR013"
+			(at 77.47 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 70.485 251.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +8453,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 70.485 0)
+			(at 73.66 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda90834-472d-4b4e-bc45-15b16a1a292b")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vdg:MC3346")
+		(at 114.3 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "964e5e24-6fcb-4843-a768-0f5d49aae23a")
+		(property "Reference" "IC2"
+			(at 113.665 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC3346"
+			(at 113.665 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 115.57 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/167480/MOTOROLA/MC3346.html"
+			(at 114.3 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,17 +8579,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 227.33 66.04 270)
+		(at 237.49 66.04 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9700fe84-1204-48ab-a269-68d5a468d21c")
 		(property "Reference" "C15"
-			(at 227.3237 59.69 90)
+			(at 237.49 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +8596,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 227.3237 62.23 90)
+			(at 237.49 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +8604,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 227.33 66.04 0)
+			(at 237.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +8613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 66.04 0)
+			(at 237.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +8622,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 227.33 66.04 0)
+			(at 237.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,16 +8714,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 154.94 90)
+		(at 252.73 50.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c46064d-d4a2-418d-9e1b-5fa7cf2dda9d")
 		(property "Reference" "C18"
-			(at 60.9663 148.59 90)
+			(at 252.73 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +8731,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 60.9663 151.13 90)
+			(at 252.73 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +8739,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 60.96 154.94 0)
+			(at 252.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +8748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 154.94 0)
+			(at 252.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +8757,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 154.94 0)
+			(at 252.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,6 +8775,73 @@
 			(project ""
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eeb1a3b-99dc-414b-902f-c39d289aef7b")
+		(property "Reference" "#PWR010"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf480ebd-5f5a-4dac-bbda-807c6cd97170")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4156,7 +8940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 60.96 104.14 0)
 			(effects
 				(font
@@ -4199,35 +8983,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_CBE")
-		(at 201.93 114.3 0)
+		(lib_id "Device:R_Small")
+		(at 76.2 215.9 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b90eb05f-6a34-4d5b-a712-4383cb0cc4e7")
-		(property "Reference" "T1"
-			(at 207.01 113.0299 0)
+		(uuid "b49e9d54-e4c8-4a05-a0db-824f07cf4cdd")
+		(property "Reference" "R15"
+			(at 76.2 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_CBE"
-			(at 207.01 115.5699 0)
+		(property "Value" "220R"
+			(at 76.2 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 207.01 111.76 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 76.2 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +9019,281 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 114.3 0)
+			(at 76.2 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1282aa4a-99c5-4fb5-941e-5f3592ea1460")
+		)
+		(pin "1"
+			(uuid "432f3362-549e-4db2-97e7-d00542f67e84")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 251.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4fa0128-a855-4ba7-9a38-2f3bc40cfc55")
+		(property "Reference" "R38"
+			(at 76.2 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 76.2 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "754ca5a1-4daa-4b4e-bd21-99d14de99cf9")
+		)
+		(pin "1"
+			(uuid "ef35c365-5ac6-4221-9b81-b6d81497bfd4")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 245.11 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b86f8a1a-c59c-41fc-9af5-1a5f0053666b")
+		(property "Reference" "R42"
+			(at 245.11 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 245.11 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9947fd74-60f2-4577-a241-090a614dca88")
+		)
+		(pin "1"
+			(uuid "06b689f9-47d9-4660-9ca6-1ab1363072f3")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 54.61 237.49 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8785c55-9b27-49bb-8020-2a4bac10ed15")
+		(property "Reference" "R22"
+			(at 54.61 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 54.61 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 54.61 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3535c7cd-8138-472f-bc3b-9e293e1c6b3a")
+		)
+		(pin "1"
+			(uuid "64717557-e036-4f53-974e-871e65de8e45")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_CBE")
+		(at 30.48 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90eb05f-6a34-4d5b-a712-4383cb0cc4e7")
+		(property "Reference" "T1"
+			(at 30.48 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NPN_CBE"
+			(at 30.48 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
+			(at 27.94 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +9302,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, collector/base/emitter"
-			(at 201.93 114.3 0)
+			(at 30.48 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +9330,211 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 137.16 270)
+		(at 54.61 245.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb9d8c6b-5c38-4874-b827-187ed4c9995d")
+		(property "Reference" "R33"
+			(at 54.61 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 54.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 54.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae829a5a-d404-4028-9841-b3b1f270e058")
+		)
+		(pin "1"
+			(uuid "34d42e99-a489-4a36-9b9b-4c4627c94b2a")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 121.92 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc3dc215-7a49-4ae6-bde6-9d32b9741cd7")
+		(property "Reference" "#PWR020"
+			(at 119.38 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 114.808 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7f2d39-d073-4733-a885-63ae144ae25c")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 248.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdcb758f-aab2-4d1d-82ef-a3191240c2c0")
+		(property "Reference" "R18"
+			(at 124.46 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 124.46 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 124.46 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c45d951b-89ec-4c9a-a0be-ce6c95b4c0a4")
+		)
+		(pin "1"
+			(uuid "b734c9e2-1bfb-4732-be8a-517d25d37b7c")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 119.38 137.16 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4283,7 +9544,7 @@
 		(fields_autoplaced yes)
 		(uuid "c007cabb-9fc4-412e-9dbe-f5cd8ed9913d")
 		(property "Reference" "R48"
-			(at 116.84 132.08 90)
+			(at 119.38 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +9552,7 @@
 			)
 		)
 		(property "Value" "2R2"
-			(at 116.84 134.62 90)
+			(at 119.38 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +9560,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +9569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +9578,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,6 +9596,142 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 245.11 66.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56467b4-228f-4fc4-b001-a1b2c4b90b77")
+		(property "Reference" "R41"
+			(at 245.11 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 245.11 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ebf0d48-35e1-43cf-8bd7-1608c3dd94c5")
+		)
+		(pin "1"
+			(uuid "04f57507-4920-4f8b-bd7e-20419e9db1f7")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9cbce88-8b7b-443e-a407-a8ef0fc01cf1")
+		(property "Reference" "R37"
+			(at 110.49 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 110.49 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1b45471-8567-4d2b-962e-1f9de20c0378")
+		)
+		(pin "1"
+			(uuid "0bd326ed-88be-4f02-b8cd-ec248d299514")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4405,6 +9802,74 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 246.634 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc417707-c9e5-4f50-a7cf-362a638780f0")
+		(property "Reference" "R19"
+			(at 153.67 241.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 153.67 244.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 153.67 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0ec0d56-ad32-4e61-8b9b-4d37260dafe5")
+		)
+		(pin "1"
+			(uuid "e9fbb108-ce70-4e7a-ba9f-c2d660731d67")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4591,8 +10056,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd6b802-8dce-48c9-b246-3dd2e99670b0")
+		(property "Reference" "#PWR08"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8e645d3-9b02-4cbf-8b25-e13dd7df2b1c")
+		)
+		(instances
+			(project ""
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 121.92 256.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfacbcae-dd3a-4959-9c08-6298f3dd8b91")
+		(property "Reference" "#PWR021"
+			(at 119.38 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 114.808 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aee97d0-74df-4e72-a5f8-95e1105b49e5")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 49.53 135.89 90)
+		(at 39.37 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4601,7 +10199,7 @@
 		(fields_autoplaced yes)
 		(uuid "e19b8c95-5d5a-4089-b675-083683ef6035")
 		(property "Reference" "C10"
-			(at 49.5363 129.54 90)
+			(at 45.72 133.3563 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +10207,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 49.5363 132.08 90)
+			(at 43.18 133.3563 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +10215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
-			(at 49.53 135.89 0)
+			(at 39.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +10224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 135.89 0)
+			(at 39.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +10233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 135.89 0)
+			(at 39.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,35 +10257,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_CBE")
-		(at 201.93 142.24 0)
+		(lib_id "Device:R_Small")
+		(at 120.65 220.98 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f626b278-8007-4447-a82a-b2cab0605a7b")
-		(property "Reference" "T3"
-			(at 207.01 140.9699 0)
+		(uuid "e3b3c82d-b2d6-4bb2-9e69-8efc94eea28e")
+		(property "Reference" "R31"
+			(at 120.65 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_CBE"
-			(at 207.01 143.5099 0)
+		(property "Value" "220R"
+			(at 120.65 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 207.01 139.7 0)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 120.65 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +10293,276 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 142.24 0)
+			(at 120.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 120.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90d69ab1-093a-4480-939b-ae1f23f59bc8")
+		)
+		(pin "1"
+			(uuid "d438b6cb-6fbb-46d0-91e4-ce2e4356df24")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 132.08 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9113c7-e27c-4b1a-8455-b7f27d15e93e")
+		(property "Reference" "R24"
+			(at 132.08 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 132.08 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 132.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f835ce2-9d4a-4e99-8ba5-8ae170364c90")
+		)
+		(pin "1"
+			(uuid "7ee48dba-96ad-4b0d-bf62-9d56abf12deb")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 257.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee6b7380-1402-4f50-847e-5f7c86c5ab08")
+		(property "Reference" "R25"
+			(at 46.99 252.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 46.99 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 46.99 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6d5dbd0-2b59-4108-b823-40f1272dd2ca")
+		)
+		(pin "1"
+			(uuid "d80b3c53-68fd-41e1-b4e7-de39d99da416")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 229.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f582830d-ec90-45fc-9a4f-fd262ce9aa22")
+		(property "Reference" "R28"
+			(at 46.99 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 46.99 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ddb0d77-1d10-4aa0-8e78-a3333c70a776")
+		)
+		(pin "1"
+			(uuid "6af12dd8-2d32-4e6f-b036-5c871b2f6b10")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_CBE")
+		(at 30.48 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f626b278-8007-4447-a82a-b2cab0605a7b")
+		(property "Reference" "T3"
+			(at 30.48 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_NPN_CBE"
+			(at 30.48 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +10571,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, collector/base/emitter"
-			(at 201.93 142.24 0)
+			(at 30.48 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,6 +10592,73 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 54.61 229.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fadba4da-2a7e-435b-a44c-5db1afb35e1b")
+		(property "Reference" "R34"
+			(at 54.61 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 54.61 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 54.61 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 54.61 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae553ca1-6db2-4cc4-97d5-c722030323b2")
+		)
+		(pin "1"
+			(uuid "ab321cb0-e780-4097-a9ad-a3d976f2121e")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4793,6 +10726,74 @@
 			(project ""
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 254.254 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe23c44-3984-4d3c-b49c-13a9907c19f9")
+		(property "Reference" "R17"
+			(at 153.67 249.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 153.67 251.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 153.67 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d99131c6-9188-4396-adae-2f2bc80f25a3")
+		)
+		(pin "1"
+			(uuid "b9965f5a-8096-4b95-b5ec-c2558ccc9433")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/a53638d3-c361-4eef-a675-b4e6c314b467"
+					(reference "R17")
 					(unit 1)
 				)
 			)
