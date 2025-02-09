@@ -1310,6 +1310,406 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:L7905"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L7905"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1.5A Negative"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220* TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L7905_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L7905_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM7812_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7812_TO220"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM7812_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7812_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2211,6 +2611,18 @@
 		(uuid "1dd87467-75bd-4f94-b31e-3d6fc250b650")
 	)
 	(junction
+		(at 99.06 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2061b452-b507-42f8-969d-6ac5e41bcd04")
+	)
+	(junction
+		(at 163.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "321b04d9-423d-4eb3-bc6e-ace9070804d7")
+	)
+	(junction
 		(at 99.06 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2223,10 +2635,16 @@
 		(uuid "49406ef8-f590-4633-9bfa-f448202f9717")
 	)
 	(junction
-		(at 35.56 52.07)
+		(at 196.85 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a276fed-cfee-4c87-8dc2-241276ee932d")
+	)
+	(junction
+		(at 160.02 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55db9e34-a27d-409a-9aa8-2409f8a61828")
 	)
 	(junction
 		(at 99.06 57.15)
@@ -2235,10 +2653,22 @@
 		(uuid "5a2e3ddd-e742-4ee6-8e8b-5e69cc96b49d")
 	)
 	(junction
+		(at 55.88 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "627c5684-c887-4455-9658-255fe1c6a21f")
+	)
+	(junction
 		(at 73.66 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec64388-70e1-4c32-8af2-8b0d1cd52cb3")
+	)
+	(junction
+		(at 30.48 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75cb18f6-1447-43f9-8bd1-fd944dede08c")
 	)
 	(junction
 		(at 107.95 44.45)
@@ -2251,6 +2681,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96594a98-6656-4f30-b317-18b2f9eb3c26")
+	)
+	(junction
+		(at 196.85 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf07a1c-ee0c-480b-a671-8d00af0d2497")
+	)
+	(junction
+		(at 191.77 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4265520-9caf-483f-879d-96184b0d3b21")
+	)
+	(junction
+		(at 172.72 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df9a89a4-e858-49d8-8131-6e130705b202")
 	)
 	(junction
 		(at 215.9 41.91)
@@ -2312,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 86.36) (xy 64.77 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac1607-f9e1-41ec-93e4-3c6e8c74e278")
+	)
+	(wire
+		(pts
 			(xy 106.68 44.45) (xy 107.95 44.45)
 		)
 		(stroke
@@ -2342,13 +2800,33 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 35.56 54.61)
+			(xy 196.85 35.56) (xy 196.85 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "166546d5-d0ed-4ddd-b124-a37ac4e336b9")
+	)
+	(wire
+		(pts
+			(xy 39.37 86.36) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1815796d-49ad-46be-a31e-02313bf75a23")
+	)
+	(wire
+		(pts
+			(xy 173.99 35.56) (xy 172.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196e261b-7895-4141-9104-d4d6f1fea965")
 	)
 	(wire
 		(pts
@@ -2362,6 +2840,56 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 38.1) (xy 172.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a7e7d3-0696-436a-b440-a7141b72b7e3")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 55.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae31d6b-8b98-4cb0-bc45-7499c30367d6")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc22beb-1303-400a-ad0b-caf298ab47d3")
+	)
+	(wire
+		(pts
+			(xy 191.77 33.02) (xy 191.77 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ff02c3-f14f-487e-a4a4-79ff2dbc19cc")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3215d813-cd91-421d-8a3a-1098d1b2014e")
+	)
+	(wire
+		(pts
 			(xy 139.7 48.26) (xy 134.62 48.26)
 		)
 		(stroke
@@ -2372,6 +2900,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 35.56) (xy 172.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412b3dcb-6724-4b9f-8669-bf6ee23e53fe")
+	)
+	(wire
+		(pts
 			(xy 148.59 63.5) (xy 151.13 63.5)
 		)
 		(stroke
@@ -2379,6 +2917,16 @@
 			(type default)
 		)
 		(uuid "43389a26-71b4-489f-b772-ce1f10f43e41")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d2403b-a25c-4696-8bc9-6f6f04c99fcb")
 	)
 	(wire
 		(pts
@@ -2399,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "4b53eb02-73b1-4847-a9da-7741db46335f")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5544f4a1-22aa-400c-b544-1439b02b5521")
 	)
 	(wire
 		(pts
@@ -2442,7 +3000,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 35.56 52.07)
+			(xy 191.77 35.56) (xy 189.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef0fd58-fdc8-4e5e-b007-e04dd336709f")
+	)
+	(wire
+		(pts
+			(xy 196.85 35.56) (xy 191.77 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2469,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "735b2529-7be5-4688-a6c9-03311e591553")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 205.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77915d98-6649-451a-a364-d715d1367c6e")
 	)
 	(wire
 		(pts
@@ -2559,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "88dfe4ac-80fd-4ff1-a10b-8b084be552a6")
+	)
+	(wire
+		(pts
+			(xy 30.48 86.36) (xy 39.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f901754-dc90-4d88-ace7-0d6b7acf1865")
 	)
 	(wire
 		(pts
@@ -2672,6 +3260,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 69.85) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13c0a0a-a03d-4787-82c7-f517ff124b36")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4048b84-dfdb-4d62-b4b2-50501bf58087")
+	)
+	(wire
+		(pts
 			(xy 119.38 44.45) (xy 119.38 48.26)
 		)
 		(stroke
@@ -2679,6 +3287,16 @@
 			(type default)
 		)
 		(uuid "c7dbaefb-1acb-46c6-8ea9-303c14cff833")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbffae11-08ce-486f-b9da-ea6fac3a57c4")
 	)
 	(wire
 		(pts
@@ -2692,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 148.59 67.31)
+			(xy 148.59 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2712,13 +3330,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 36.83 52.07)
+			(xy 196.85 35.56) (xy 205.74 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5484ef8-5dc2-4982-ad49-17833740c67e")
+	)
+	(wire
+		(pts
+			(xy 30.48 87.63) (xy 30.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d586e553-049f-4e27-9fe2-a6bb2e12c233")
 	)
 	(wire
 		(pts
@@ -2759,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "eecb542e-cc5e-450a-a661-acded492b13f")
+	)
+	(wire
+		(pts
+			(xy 205.74 44.45) (xy 205.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f448b50e-6764-450e-95c7-edebe6dd8a79")
 	)
 	(wire
 		(pts
@@ -2881,9 +3519,76 @@
 		(uuid "fdbbc9a0-a143-4e8a-abf2-e6ca49539b7b")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 39.37 52.07 270)
+		(lib_id "power:+12V")
+		(at 180.34 67.31 270)
 		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "018b8102-367c-4db9-8a0f-9fa3056c82f5")
+		(property "Reference" "#PWR047"
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 184.15 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a162eeab-123d-4b7c-844e-7a21cf5cfdc3")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 205.74 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2891,7 +3596,7 @@
 		(dnp no)
 		(uuid "0e2103af-3e9b-4ed4-a958-6d7326b9b451")
 		(property "Reference" "R2"
-			(at 39.37 46.99 90)
+			(at 203.454 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3604,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 39.37 49.53 90)
+			(at 202.184 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 39.37 52.07 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 52.07 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3630,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 39.37 52.07 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,6 +3806,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 55.88 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab0ac24-672f-4e7a-93e2-25c50672c2b9")
+		(property "Reference" "#PWR043"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec8ff567-6725-4814-93ec-e15b8e5656dc")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 157.48 35.56 270)
 		(mirror x)
@@ -3169,8 +3940,213 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b5ac98-0d9c-4d3d-ada0-828dfc3e691c")
+		(property "Reference" "#PWR041"
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9e31716-fdab-456d-a37b-b5af3efebf21")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:L7905")
+		(at 181.61 35.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b18994-593f-420c-b873-a363ef4aca76")
+		(property "Reference" "REG2"
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7905"
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 181.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"
+			(at 181.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57ccc77f-82cb-4391-b085-c064998a3ff1")
+		)
+		(pin "2"
+			(uuid "68ae79cd-06f5-4c34-b014-024b30b6350c")
+		)
+		(pin "3"
+			(uuid "5178560a-3091-4a8d-a393-3bab6eeccc7a")
+		)
+		(instances
+			(project ""
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "REG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59bd7cca-ab83-4bf7-b306-e72437677106")
+		(property "Reference" "#PWR046"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6604a5e5-c503-4e15-ab82-8da7d814e228")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 35.56 57.15 180)
+		(at 196.85 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3179,7 +4155,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b73ca3a-3b6f-410e-bbf6-b8b4448a279f")
 		(property "Reference" "C1"
-			(at 33.02 58.4138 0)
+			(at 194.31 41.9038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +4164,7 @@
 			)
 		)
 		(property "Value" "1M250"
-			(at 33.02 55.8738 0)
+			(at 194.31 39.3638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +4173,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT"
-			(at 35.56 57.15 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +4182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 57.15 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +4191,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 35.56 57.15 0)
+			(at 196.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,6 +4209,142 @@
 			(project ""
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6126b486-2c9c-4728-8c7c-16482174d7bf")
+		(property "Reference" "#PWR039"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c6674a-f6da-4bb3-bf77-4e3b0b55c2ff")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 30.48 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aafa759-4ff7-4d27-8b6b-238bcca2dfbe")
+		(property "Reference" "C3"
+			(at 27.94 91.4338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M250"
+			(at 27.94 88.8938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4efc92f8-9a62-4c9f-af83-645d9fbad935")
+		)
+		(pin "1"
+			(uuid "684d3bf3-962e-4ba4-9409-d62d9d6ae1e0")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3301,6 +4413,73 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da8618d-2fd1-4d86-bcc1-f2f4d133c734")
+		(property "Reference" "#PWR048"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2071e3d-6db9-4f9c-ac81-65681a1a1b0b")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3555,7 +4734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 59.69 0)
+		(at 196.85 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3564,7 +4743,7 @@
 		(fields_autoplaced yes)
 		(uuid "91287594-a5fa-4833-959c-407e8d5e0e51")
 		(property "Reference" "#PWR023"
-			(at 35.56 66.04 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +4752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 64.77 0)
+			(at 196.85 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 59.69 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 59.69 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +4778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 59.69 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,6 +4793,76 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "927322f9-6b59-4f27-8b7b-35d296d5f340")
+		(property "Reference" "C4"
+			(at 53.34 91.4338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M250"
+			(at 53.34 88.8938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8537e29c-29a3-40eb-8a0a-437bc8e3d028")
+		)
+		(pin "1"
+			(uuid "5c46fbf0-cb09-4c84-98f5-f2aa95d73874")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3766,6 +5015,138 @@
 			(project ""
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac51cf8-74cf-4324-bb83-b7a16b68a249")
+		(property "Reference" "#PWR038"
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fb11db2-9e89-4996-bdcb-794a8df09b75")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b4993d1-178d-4695-832b-7555a0bdf010")
+		(property "Reference" "#PWR042"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 32.512 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "add44ade-0352-46b6-b813-a97b21a321d7")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3929,6 +5310,215 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfcfab7-deba-4a73-b1e8-199c3da9526d")
+		(property "Reference" "C7"
+			(at 170.18 39.3635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 170.18 41.9035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8bb5518-fbd5-4806-99f2-8e6677290414")
+		)
+		(pin "1"
+			(uuid "bff94c9c-d6a7-4661-a582-d7384836038b")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ab9e11-446a-4486-9c24-35a27771e749")
+		(property "Reference" "#PWR040"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70c78864-f9a1-4c88-9b88-e725e1e22700")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7812_TO220")
+		(at 172.72 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c00048-f725-4053-9e70-2c500c496388")
+		(property "Reference" "REG3"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7812_TO220"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 172.72 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1cbe32c-b78e-4699-b5d9-1923f607bc55")
+		)
+		(pin "1"
+			(uuid "f820f346-10f5-4d92-9713-d51adc1dadc0")
+		)
+		(pin "3"
+			(uuid "3cefe43a-4b35-4c24-8871-bc8a67ee5baa")
+		)
+		(instances
+			(project ""
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "REG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4002")
 		(at 144.78 44.45 0)
 		(unit 1)
@@ -4075,6 +5665,207 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2765840-7373-4fc4-8d73-70b924c70356")
+		(property "Reference" "#PWR045"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59758836-45b1-418d-9a56-1e3fbef86194")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c41a75bc-8119-4e9f-99ef-ce51714c748c")
+		(property "Reference" "#PWR049"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4380e36b-0d73-4b72-b202-6056b0438907")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 39.37 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c45f4f51-216c-4b6d-bbd7-e5e3fd4c1d3d")
+		(property "Reference" "R3"
+			(at 35.56 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 35.56 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ee30394-a614-4fb4-b1fb-0907224b53f3")
+		)
+		(pin "1"
+			(uuid "24e72e9d-0f37-4c15-ab1b-af6b41dc0bcd")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4287,15 +6078,16 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 34.29 52.07 90)
+		(at 191.77 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e19e8c46-d306-4978-9396-9b62f42429f6")
-		(property "Reference" "#PWR037"
-			(at 31.75 52.07 0)
+		(uuid "e1635ea5-0849-4516-8cf2-58cbefdaecf2")
+		(property "Reference" "#PWR044"
+			(at 191.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +6096,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 27.178 52.07 90)
+			(at 191.77 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +6105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 52.07 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +6114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 52.07 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +6123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 52.07 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,12 +6132,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc463e23-d712-4aea-8836-565a3f44cb83")
+			(uuid "f024acbe-864b-4cda-9ebb-fd4c2bec40f2")
 		)
 		(instances
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4652,6 +6444,145 @@
 			(project "Dragon32PowerSecam"
 				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 163.83 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f61b5573-2ce4-48dc-b8d8-fd6436dd6e0b")
+		(property "Reference" "C8"
+			(at 161.29 70.5738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF 50V"
+			(at 161.29 73.1138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D10.0mm_P35.00mm_Horizontal"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d83bd72b-eb2b-49b3-99d0-180115a0f24e")
+		)
+		(pin "2"
+			(uuid "1539e40b-5e7e-4f02-ac28-0e2e76b3e57e")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 64.77 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8ebaa71-7ac0-4cec-9c33-09c32aa2bc5f")
+		(property "Reference" "R4"
+			(at 61.214 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 60.96 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 64.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8eedf49-7548-4fbf-9973-bdc048736d32")
+		)
+		(pin "1"
+			(uuid "dd9737e9-3edb-4069-82b9-79eaf9c80b49")
+		)
+		(instances
+			(project "Dragon32PowerSecam"
+				(path "/ace185c2-9b54-41ba-956b-7e7c726e18a3/0ba13ba5-ae8a-4e9c-9e09-2d66970d2091"
+					(reference "R4")
 					(unit 1)
 				)
 			)
