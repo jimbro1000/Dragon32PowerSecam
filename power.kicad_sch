@@ -3596,14 +3596,14 @@
 		(dnp no)
 		(uuid "0e2103af-3e9b-4ed4-a958-6d7326b9b451")
 		(property "Reference" "R2"
-			(at 203.454 41.656 0)
+			(at 202.946 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10K"
 			(at 202.184 39.624 0)
 			(effects
 				(font
@@ -5821,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10K"
 			(at 35.56 91.186 0)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10K"
 			(at 60.96 91.186 0)
 			(effects
 				(font
