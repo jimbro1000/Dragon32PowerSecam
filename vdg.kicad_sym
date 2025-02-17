@@ -3904,7 +3904,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "UM"
-			(at 0 -6.35 0)
+			(at -1.27 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,8 +3948,8 @@
 		)
 		(symbol "RF_Modulator_0_1"
 			(rectangle
-				(start -6.35 5.715)
-				(end 5.715 -5.08)
+				(start -7.62 5.715)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -3961,9 +3961,9 @@
 		)
 		(symbol "RF_Modulator_1_1"
 			(pin input line
-				(at -8.89 3.81 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "Bias"
+				(name "SECAM_Comp"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3979,9 +3979,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 1.27 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
-				(name "Composite"
+				(name "Audio_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3997,9 +3997,9 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "Audio"
+				(name "Audio_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4015,7 +4015,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -3.81 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "GND"
 					(effects

@@ -1487,7 +1487,7 @@
 		)
 		(uuid "7a8bc419-563f-44fd-b855-6e7580a083b4")
 	)
-	(label "AUDIO"
+	(label "5V"
 		(at 55.88 54.61 0)
 		(effects
 			(font
@@ -1749,7 +1749,7 @@
 			)
 		)
 	)
-	(global_label "U11"
+	(global_label "SECAM_COMP"
 		(shape input)
 		(at 48.26 90.17 180)
 		(fields_autoplaced yes)
@@ -1761,7 +1761,7 @@
 		)
 		(uuid "e9772637-6058-4042-9d25-e277280671fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.5253 90.17 0)
+			(at 32.8168 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
