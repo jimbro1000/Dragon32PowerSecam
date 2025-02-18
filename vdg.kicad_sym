@@ -3981,7 +3981,7 @@
 			(pin input line
 				(at -10.16 1.27 0)
 				(length 2.54)
-				(name "Audio_1"
+				(name "Audio"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 			(pin input line
 				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "Audio_2"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
